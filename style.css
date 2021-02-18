@@ -77,6 +77,8 @@ input[type=text] {
   box-shadow: 0 1px 5px rgb(97, 97, 97);
   background-color: #e1bb80;
   color: rgb(1, 54, 70);
+  font-weight: bold;
+  padding: 5px;
   border: 1px solid wheat;
   height: 50px;
   width: 220px;
@@ -86,6 +88,12 @@ input[type=text] {
   align-items: center;
   font-size: 26px;
   text-align: center;
+}
+
+::placeholder {
+  font-size: 26px;
+  text-align: center;
+  color: rgb(1, 54, 70);
 }
 
 @media screen and (max-width: 870px) {
